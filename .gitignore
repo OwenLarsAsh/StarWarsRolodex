@@ -1,3 +1,5 @@
 /*.classpath
 /*.project
 /.settings/*.prefs
+/target/classes/com/starwars/rolodex/character/impl/*.class
+/target/classes/com/starwars/rolodex/character/types/*.class
