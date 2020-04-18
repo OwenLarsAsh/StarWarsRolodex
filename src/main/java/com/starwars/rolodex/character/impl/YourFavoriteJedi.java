@@ -1,6 +1,7 @@
 package com.starwars.rolodex.character.impl;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import com.starwars.rolodex.character.types.Jedi;
@@ -10,8 +11,7 @@ import com.starwars.rolodex.character.types.Jedi;
  */
 public class YourFavoriteJedi implements Jedi {
 
-    private List<String> attributes = new ArrayList<String>();
-
+    private final List<String> attributes = new ArrayList<String>();
 
     { // Default constructor
         attributes.add("Art");
@@ -32,6 +32,13 @@ public class YourFavoriteJedi implements Jedi {
 
     public List<String> getAttributes() {
         return attributes;
+    }
+
+    public String getRank() {
+        return "Master";
+    }
+    public List<String> getWeapons() {
+        return Arrays.asList("LightSaber");
     }
 
 }
