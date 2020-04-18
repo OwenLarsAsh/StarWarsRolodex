@@ -31,3 +31,10 @@ Download TortiseGit from here and install: https://download.tortoisegit.org/tgit
 # Installing Maven
 Download the Maven binaries from here and unzip to the folder I mentioned above in the "Before You Start.."
 http://apache.mirrors.pair.com/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.zip
+
+The Maven install guide is pretty good, but I'll highlight the mains steps: http://maven.apache.org/install.html
+Once the folder is in place, you'll need to set the Maven environment variables
+
+Set M3_HOME to the path of the unzipped folder of Maven
+Add to the system level PATH variable to include %M3_HOME%\bin
+
