@@ -11,6 +11,9 @@ public interface Character {
 
 
     public List<String> getAttributes();
+
+    public String getName();
     
+    public List<String> getAlternativeNames();
 
 }

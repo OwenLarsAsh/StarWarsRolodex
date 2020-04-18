@@ -1,4 +1,4 @@
-package com.starwars.rolodex.character.impl;
+package com.starwars.rolodex.character.impl.jedi;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -39,6 +39,14 @@ public class YourFavoriteJedi implements Jedi {
     }
     public List<String> getWeapons() {
         return Arrays.asList("LightSaber");
+    }
+
+    public String getName() {
+        return "Your Favorite Jedi";
+    }
+
+    public List<String> getAlternativeNames() {
+        return new ArrayList<>();
     }
 
 }
