@@ -3,17 +3,17 @@
 Getting Setup
 
 
-## What I want you to know :)
+### What I want you to know :)
 
-Why is OOP (Object Oriented Programming) important?
-What is inheritance?
-What is encapsulation?
-What is polymorphism?
-What are the access modifiers and what do they mean?
-What are the static and final keywords?
-What is an abstract class vs. interface? What keywords in Java enable the use of each for inheritance?
-What is method overriding?
-What is method overloading?
+* Why is OOP (Object Oriented Programming) important?
+* What is inheritance?
+* What is encapsulation?
+* What is polymorphism?
+* What are the access modifiers and what do they mean?
+* What are the static and final keywords?
+* What is an abstract class vs. interface? What keywords in Java enable the use of each for inheritance?
+* What is method overriding?
+* What is method overloading?
 
 # Installing Tools / Development Environment
 
