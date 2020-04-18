@@ -1,0 +1,3 @@
+# StarWarsRolodex
+
+Getting Setup
