@@ -19,6 +19,8 @@ Getting Setup
 * **Task 1 -** It would make more sence for Jedi and Sith to be abstract classes instead of interfaces. Change these to abstract classes. The reason for this is because we may want some basic implementation on those classes. Interfaces cannot have any method implementations (unless they provide a default implementation - introduced in Java 8). Note that in changing these, they will still inherit from the character interface. The keyword extends is used when an interface inherits from another interface. When its changed to an abstract class, you will need to change that exends keyword to implements
 
 * **Task 2 -** Add a new class that inherits from the Jedi abstract class
+* **Task 3 -** Add a new enumberation to be used to define a Jedi's rank
+* **Task 4 -** Add a getter/setter to the Jedi abstract class - **getSaberColor()** & **setSaberColor()**. You will need to add a member variable to the Jedi abstract class. Maybe call it **saberColor** and either make it a string, or add a color enumeration as to represent it :). Lets utilize encapsulation for this. The member variable should be **private** and the methods should be **public**. This is an example of **encapsulation** because access to the actual variable is controlled
 
 # Installing Tools / Development Environment
 
