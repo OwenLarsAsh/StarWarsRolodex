@@ -58,3 +58,11 @@ Once the folder is in place, you'll need to set the Maven environment variables
 Set **M3_HOME** to the path of the unzipped folder of Maven
 Add to the system level **PATH** variable to include **%M3_HOME%\bin**
 
+### Install VS Code
+Download the latest VS Code from here: https://code.visualstudio.com/download
+I would grab the x64 bit user version. Otherwise it grabs the 32b version.
+
+Then you'll need to install the Java extension bundle.
+Instructions can be found here: https://code.visualstudio.com/docs/java/extensions
+
+This should automatically pick up on the installation of the components above and everything should be good to go :)
