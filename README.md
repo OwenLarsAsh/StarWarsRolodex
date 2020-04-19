@@ -15,6 +15,11 @@ Getting Setup
 * What is method overriding?
 * What is method overloading?
 
+### Tasks
+* **Task 1 -** It would make more sence for Jedi and Sith to be abstract classes instead of interfaces. Change these to abstract classes. The reason for this is because we may want some basic implementation on those classes. Interfaces cannot have any method implementations (unless they provide a default implementation - introduced in Java 8). Note that in changing these, they will still inherit from the character interface. The keyword extends is used when an interface inherits from another interface. When its changed to an abstract class, you will need to change that exends keyword to implements
+
+* **Task 2 -** Add a new class that inherits from the Jedi abstract class
+
 # Installing Tools / Development Environment
 
 * Cmder (Optional), but I like it much better than the Windows CMD
